@@ -1,14 +1,22 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import {BrowserRouter,Routes,Route}  from 'react-router-dom'
 import Navbar from './Screen/Navbar';
 import Home from './Screen/Home';
-
+import History from  './components/History/History'
 function App() {
   return (
-    <div >
-    <Home></Home>
-    </div>
+<BrowserRouter>
+
+<Routes>
+
+<Route exact path = '/' element={<Home/>}></Route>
+<Route exact path = '/history' element={<History/>}></Route>
+
+</Routes>
+
+</BrowserRouter>
   );
 }
 

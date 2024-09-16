@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Landing from '../components/Landing'
-import History from '../components/History'
-import Story from '../components/Story'
-import Contact from '../components/Contact'
+import Landing from '../components/Home/Landing'
+import History from '../components/Home/History'
+import Story from '../components/Home/Story'
+import Contact from '../components/Home/Contact'
 
 function Home() {
   return (
