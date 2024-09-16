@@ -1,6 +1,9 @@
 
 
 .hist{
-    height: 100vh;
+    height: 100%;
     background-image: url('../../../public/images/history.jpg');
+    background-size: cover;
+    width: 100%;
+
 }
