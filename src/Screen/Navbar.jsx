@@ -52,6 +52,7 @@ const Navbar = () => {
         <li className="nav-item"><Link  className='hell'  to="/instruments">Instruments</Link></li>
         <li className="nav-item"><Link  className='hell'  to="/heritage">Preserving Heritage</Link></li>
         <li className="nav-item"><Link  className='hell'  to="/visit">Visit</Link></li>
+        <li className="nav-item"><Link  className='hell'  to="/gallery">Gallery</Link></li>
       </ul>
     </nav>
   );
