@@ -12,22 +12,22 @@
 //         <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
 //           <ul className="navbar-nav mx-auto w-100 d-flex justify-content-between">
 //             <li className="nav-item">
-//               <a className="nav-link" href="/">HOME</a>
+//               <Link className="nav-link" to="/">HOME</Link>
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="/history">HISTORY</a>
+//               <Link className="nav-link" to="/history">HISTORY</Link>
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="/instruments">INSTRUMENTS</a>
+//               <Link className="nav-link" to="/instruments">INSTRUMENTS</Link>
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="/heritage">PRESERVING HERITAGE</a>
+//               <Link className="nav-link" to="/heritage">PRESERVING HERITAGE</Link>
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="#gallery">GALLERY</a>
+//               <Link className="nav-link" to="#gallery">GALLERY</Link>
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="#visit">VISIT</a>
+//               <Link className="nav-link" to="#visit">VISIT</Link>
 //             </li>
             
 //           </ul>
@@ -41,16 +41,17 @@
 
 import React from 'react';
 import './Navbar.css'; // Assuming the CSS file is here
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-        <li className="nav-item"><a href="/">Home</a></li>
-        <li className="nav-item"><a href="/history">History</a></li>
-        <li className="nav-item"><a href="/instruments">Instruments</a></li>
-        <li className="nav-item"><a href="/heritage">Preserving Heritage</a></li>
-        <li className="nav-item"><a href="/visit">Visit</a></li>
+        <li className="nav-item "><Link className='hell' to="/" >Home</Link></li> 
+        <li className="nav-item"><Link  className='hell' to="/history">History</Link></li>
+        <li className="nav-item"><Link  className='hell'  to="/instruments">Instruments</Link></li>
+        <li className="nav-item"><Link  className='hell'  to="/heritage">Preserving Heritage</Link></li>
+        <li className="nav-item"><Link  className='hell'  to="/visit">Visit</Link></li>
       </ul>
     </nav>
   );

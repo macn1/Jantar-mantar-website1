@@ -39,7 +39,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;  /* Make sure nav items take full width */
+  width: 100%;
+  color: white;  /* Make sure nav items take full width */
 }
 
 .nav-item {
@@ -47,7 +48,7 @@
   text-align: center;  /* Center-align text */
 }
 
-.nav-item a {
+.nav-item .hell{
   color: white;
   padding: 10px;
   text-decoration: none;
@@ -55,7 +56,7 @@
   display: block;  /* Make anchor tag take full height */
 }
 
-.nav-item a:hover {
+.nav-item .hell:hover {
   background-color: #575757;
   border-radius: 4px;
 }

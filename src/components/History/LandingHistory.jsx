@@ -20,16 +20,16 @@ import img10 from '../../folder/9.jpg'
 function LandingHistory() {
     return (
         <div>
-            <div className='hist'>
+            <div className='hist pb-5 pt-5'>
 
-                <div className='text-white text-center'>
+                <div className='text-white text-center '>
                     <h2>The Royal Legacy Behind Jantar Mantar, Jaipur</h2>
 
                     <div className='container ' >
 
                         <div className='row'>
 
-                            <div className='col-12'>
+                            <div className='col-12 pt-5'>
                                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
