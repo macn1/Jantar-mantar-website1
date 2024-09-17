@@ -31,32 +31,32 @@ function Instruments() {
               
               <div className='col-12 col-md-4 p-1 mt-5'  >
                 <img src={img2} alt=""  style={{width:'100%',height:'100%',border:'2px solid white'}}/>
-                <h5 className='mt-3'>instrument 1</h5>
+                <h5 className='mt-3 text-center'>instrument 1</h5>
             
               </div>
               <div className='col-12 col-md-4 p-1 mt-5'  >
                 <img src={img3} alt=""  style={{width:'100%',height:'100%',border:'2px solid white'}}/>
-                <h5 className='mt-3'>instrument 2</h5>
+                <h5 className='mt-3 text-center'>instrument 2</h5>
             
               </div>
               <div className='col-12 col-md-4 p-1 mt-5'  >
                 <img src={img4} alt=""  style={{width:'100%',height:'100%',border:'2px solid white'}}/>
-                <h5 className='mt-3'>instrument 2</h5>
+                <h5 className='mt-3 text-center'>instrument 2</h5>
             
               </div>
               <div className='col-12 col-md-4 p-1 mt-5' >
                 <img src={img5} alt=""  style={{width:'100%',height:'100%',border:'2px solid white'}}/>
-                <h5 className='mt-3'>instrument 4</h5>
+                <h5 className='mt-3 text-center'>instrument 4</h5>
             
               </  div>
               <div className='col-12 col-md-4 p-1 mt-5'>
                 <img src={img6} alt=""  style={{width:'100%',height:'100%',border:'2px solid white'}}/>
-                <h5 className='mt-3'>instrument 5</h5>
+                <h5 className='mt-3 text-center'>instrument 5</h5>
             
               </div>
               <div className='col-12 col-md-4 p-1 mt-5'  >
                 <img src={img7} alt=""  style={{width:'100%',height:'100%',border:'2px solid white'}}/>
-                <h5 className='mt-3'>instrument 6</h5>
+                <h5 className='mt-3 text-center'>instrument 6</h5>
             
               </div>
               

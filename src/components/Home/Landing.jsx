@@ -6,7 +6,7 @@ function Landing() {
   return (
     <div className='first '>
 
-      <img src={img1} style= {{width:'100%'}}  alt="" />
+      <img src={img1} style= {{width:'100%',backgroundSize:'cover'}}  alt="" />
 
 
 
