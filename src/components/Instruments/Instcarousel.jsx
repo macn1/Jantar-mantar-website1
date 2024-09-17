@@ -15,7 +15,7 @@ function Instcarousel() {
 
         <div className='caro'>
 
-            <div className='container pt-5'>
+            <div className='container pt-5 pb-5'>
                 <div className='col-12 text-center pt-5 d-felx flex-column flex-center'>
                 <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
@@ -28,8 +28,8 @@ function Instcarousel() {
     
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={img2} class="d-block w-100" alt="..."/>
+    <div class="carousel-item active" >
+      <img src={img2} class="d-block w-100 " alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h1 style={{backgroundColor:'black',opacity:'70%'}}>    Instrument 1 slide label</h1>
         <p  style={{backgroundColor:'black',opacity:'70%'}}>Some representative placeholder content for the first slide.</p>
