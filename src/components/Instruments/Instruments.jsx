@@ -29,36 +29,36 @@ function Instruments() {
            
 
               
-              <div className='col-12 col-md-4 p-3' >
-                <img src={img2} alt=""  style={{width:'100%'}}/>
+              <div className='col-12 col-md-4 p-3 mt-5' >
+                <img src={img2} alt=""  style={{width:'80%'}}/>
                 <h5>instrument 1</h5>
             
               </div>
-              <div className='col-12 col-md-4 p-3' >
-                <img src={img3} alt=""  style={{width:'100%'}}/>
+              <div className='col-12 col-md-4 p-3 mt-5' >
+                <img src={img3} alt=""  style={{width:'80%'}}/>
                 <h5>instrument 2</h5>
 
               </div>
-              <div className='col-12 col-md-4' >
-              <img src={img4} alt=""  style={{width:'100%'}}/>
+              <div className='col-12 col-md-4 mt-5' >
+              <img src={img4} alt=""  style={{width:'80%'}}/>
                 <h5>instrument 3</h5>
 
 
               </div>
-              <div className='col-12 col-md-4' >
-              <img src={img5} alt=""  style={{width:'100%'}}/>
+              <div className='col-12 col-md-4 mt-5' >
+              <img src={img5} alt=""  style={{width:'80%'}}/>
                 <h5>instrument 4</h5>
 
 
               </div>
-              <div className='col-12 col-md-4'>
-              <img src={img6} alt=""  style={{width:'100%'}}/>
+              <div className='col-12 col-md-4 mt-5'>
+              <img src={img6} alt=""  style={{width:'80%'}}/>
                 <h5>instrument 5</h5>
 
 
               </div>
-              <div className='col-12 col-md-4' >
-              <img src={img7} alt=""  style={{width:'100%'}}/>
+              <div className='col-12 col-md-4 mt-5' >
+              <img src={img7} alt=""  style={{width:'80%'}}/>
                 <h5>instrument 6</h5>
 
 

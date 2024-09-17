@@ -27,7 +27,7 @@ const Navbar = () => {
               <a className="nav-link" href="#visit">VISIT</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#heritage">PRESERVING HERITAGE</a>
+              <a className="nav-link" href="/heritage">PRESERVING HERITAGE</a>
             </li>
           </ul>
         </div>
