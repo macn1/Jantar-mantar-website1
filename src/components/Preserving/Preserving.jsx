@@ -32,7 +32,7 @@ function Preserving() {
 
                             <div className='container' style={{ backgroundColor: 'white', height: '300px', opacity: '60%' }}>
                                 <h2>Expert 1</h2>
-                                <p className='mt-4'>As a UNESCO World Heritage site, Jantar Mantar is not only an architectural wonder but also a priceless repository of scientific knowledge. The conservation of this monument involves a multi-faceted approach, combining modern restoration techniques with traditional craftsmanship. The preservation efforts are crucial to maintaining the structural integrity of the instruments while ensuring they remain functional for future generations of scholars and astronomers</p>
+                                <p className='mt-4'>As a UNESCO World Heritage site, Jantar Mantar is not only an architectural wonder but also a priceless repository of scientific knowledge. The conservation of this monument involves a multi-faceted approach, combining modern restoration techniques with traditional craftsmanship. </p>
 
                             </div>
 
