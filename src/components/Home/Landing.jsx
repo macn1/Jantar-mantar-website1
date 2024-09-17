@@ -1,11 +1,16 @@
 import React from 'react'
 import './landing.css'
+import img1 from '../../folder/home1.png'
 
 function Landing() {
   return (
     <div className='first '>
 
-      <div className=' container text-white '>
+      <img src={img1} style= {{width:'100%'}}  alt="" />
+
+
+
+      {/* <div className=' container text-white '>
 
         <div className=' second ' >
 
@@ -30,7 +35,7 @@ function Landing() {
 
         </div>
 
-      </div>
+      </div> */}
 
 
     </div>
