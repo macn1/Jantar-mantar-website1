@@ -16,7 +16,7 @@ function Aboutlast() {
 
                 <div className='col-12 col-md-6 mt-5'>
 
-                    <img src={img1} alt="" style={{width:'80%',height:'90%'}} />
+                    <img src={img1} alt="" style={{width:'70%',height:'90%'}} />
 
 
 
@@ -24,7 +24,7 @@ function Aboutlast() {
 
                 <div className='col-12 col-md-6 mt-5'>
 
-                    <img src={img2} alt="" style={{width:'80% ',height:'90%',marginLeft:'20px'}} />
+                    <img src={img2} alt="" style={{width:'75% ',height:'90%',marginLeft:'20px'}} />
 
 
 
