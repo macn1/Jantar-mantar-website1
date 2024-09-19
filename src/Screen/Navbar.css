@@ -1,59 +1,32 @@
-/* .bg-black {
-  
-    background-color: #000;
-    
-    
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: #ddd;
-  }
-  
-  .navbar-nav .nav-item {
-    flex: 1;
-    text-align: center;
-  
-    font-weight: 900px;
-  }
-   */
 
-   /* General Navbar Styling */
-
-   /* General Navbar Styling */
-/* General Navbar Styling */
-/* General Navbar Styling */
 .navbar {
   background-color: #121212;
   padding: 10px;
-  width: 100%;  /* Full width navbar */
+  width: 100%; 
 }
 
 .nav-list {
   display: flex;
-  justify-content: space-between;  /* Distribute space evenly */
+  justify-content: space-between;  
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
-  color: white;  /* Make sure nav items take full width */
+  color: white;  
 }
 
 .nav-item {
-  flex: 1;  /* Each item will take equal space */
-  text-align: center;  /* Center-align text */
+  flex: 1;  
+  text-align: center;  
 }
 
 .nav-item .hell{
-  color: white;
+  color: rgb(242, 234, 234);
   padding: 10px;
   text-decoration: none;
-  font-size: 1rem;
-  display: block;  /* Make anchor tag take full height */
+  font-size: 0.5 rem;
+  display: block;  
 }
 
 .nav-item .hell:hover {
@@ -61,20 +34,56 @@
   border-radius: 4px;
 }
 
-/* Media query for mobile view */
-@media (max-width: 600px) {
+
+@media (max-width:780px) {
   .nav-list {
-    display: flex;  /* Keep items in a row in mobile view */
-    flex-direction: row;  /* Ensure horizontal alignment */
-    flex-wrap: nowrap;  /* Prevent wrapping of items */
-    overflow-x: auto;  /* Allow scrolling if needed */
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    overflow-y:hidden; 
+
   }
 
   .nav-item {
-    flex: 1;  /* Ensure equal spacing for each item */
+    flex: 1; 
   }
 
   .nav-item a {
-    padding: 10px;  /* Ensure adequate padding */
+    padding: 5px; 
   }
+}
+.nav-item {
+  position:static;
+  /* z-index: 7; */
+}
+
+.dropdown {
+  width: 20%;
+  display: none;
+  position:absolute;
+  background-color: rgb(4, 4, 4);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  z-index: 5;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  border: 1px solid rgb(96, 93, 93);
+  padding: 8px 16px;
+}
+
+.dropdown li a {
+  color: rgb(221, 208, 208);
+  text-decoration: none;
+}
+
+.dropdown li a:hover {
+  background-color: #545454;
 }
