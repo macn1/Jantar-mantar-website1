@@ -42,8 +42,11 @@ const Navbar = () => {
           <Link className='hell' to="/" onMouseEnter={() => toggleDropdown(0)}>Home</Link>
           {openDropdown === 0 && (
             <ul className="dropdown">
-              <li><Link to="/home/section1">Section 1</Link></li>
-              <li><Link to="/home/section2">Section 2</Link></li>
+              <li><Link to="/home">Introduction to jantar mantar</Link></li>
+             
+              <li><Link to="/home">sawai jai singh</Link></li>
+              <li><Link to="/home">About us</Link></li>
+
             </ul>
           )}
         </li>
@@ -52,8 +55,10 @@ const Navbar = () => {
           <Link className='hell' to="/history"   onMouseEnter={() => toggleDropdown(1)}>History</Link>
           {openDropdown === 1 && (
             <ul className="dropdown">
-              <li><Link to="/history/early">Early History</Link></li>
-              <li><Link to="/history/recent">Recent History</Link></li>
+              <li><Link to="/history/early">Jaipurs Royal Heritage</Link></li>
+              <li><Link to="/history/recent">The Reighn of Mughals</Link></li>
+              <li><Link to="/history/recent">Cosmic Chronicles</Link></li>
+
             </ul>
           )}
         </li>
@@ -62,8 +67,8 @@ const Navbar = () => {
           <Link className='hell' to="/instruments" onMouseEnter={() => toggleDropdown(2)}>Instruments</Link>
           {openDropdown === 2 && (
             <ul className="dropdown">
-              <li><Link to="/instruments/string">String</Link></li>
-              <li><Link to="/instruments/wind">Wind</Link></li>
+              <li><Link to="/instruments/string">19 marvels of jantar mantar</Link></li>
+              {/* <li><Link to="/instruments/wind">Wind</Link></li> */}
             </ul>
           )}
         </li>
@@ -72,8 +77,10 @@ const Navbar = () => {
           <Link className='hell' to="/gallery" onMouseEnter={() => toggleDropdown(3)}>Gallery</Link>
           {openDropdown === 3 && (
             <ul className="dropdown">
-              <li><Link to="/gallery/modern">Modern</Link></li>
-              <li><Link to="/gallery/classical">Classical</Link></li>
+              <li><Link to="/gallery/modern">Photographs</Link></li>
+              <li><Link to="/gallery/classical">Indian stamps / philately</Link></li>
+              <li><Link to="/gallery/classical">Miniature Paintings</Link></li>
+
             </ul>
           )}
         </li> 
@@ -82,8 +89,8 @@ const Navbar = () => {
           <Link className='hell' to="/visit" onMouseEnter={() => toggleDropdown(4)}>Visit</Link>
           {openDropdown === 4 && (
             <ul className="dropdown">
-              <li><Link to="/visit/tickets">Tickets</Link></li>
-              <li><Link to="/visit/tours">Tours</Link></li>
+              <li><Link to="/visit/tickets">Ticketing Hours</Link></li>
+              <li><Link to="/visit/tours">Visiting Hours</Link></li>
             </ul>
           )}
         </li>
@@ -91,8 +98,8 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className='hell' to="/heritage" onMouseEnter={() => toggleDropdown(5)}>Preserving Heritage</Link>
           {openDropdown === 5 && (
-            <ul className="dropdown">
-              <li><Link to="/heritage/artifacts">Artifacts</Link></li>
+            <ul className="dropdown2">
+              <li><Link to="/">Ar</Link></li>
               <li><Link to="/heritage/conservation">Conservation</Link></li>
             </ul>
           )}
