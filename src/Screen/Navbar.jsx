@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link className='hell' to="/" onMouseEnter={() => toggleDropdown(0)}>Home</Link>
           {openDropdown === 0 && (
             <ul className="dropdown">
-              <li><Link to="/home">Introduction to jantar mantar</Link></li>
+              <li><Link to="/home">Intro to jantar mantar</Link></li>
              
               <li><Link to="/home">sawai jai singh</Link></li>
               <li><Link to="/home">About us</Link></li>
